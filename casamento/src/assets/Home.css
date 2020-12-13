@@ -1,0 +1,81 @@
+@font-face{
+    font-family: hello-honey;
+    src: url("hello honey.otf") format("opentype");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: hello-honey;
+    font-size: 1.5rem;
+}
+
+#root{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.container-dia-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.container-dia-info > div{
+    height: 100%;
+    padding: 10px;
+}
+
+.divider{
+    background-color: rgb(185, 115, 115);
+    height: 100%;
+    width: 2px;
+    padding:0px !important;
+}
+
+
+
+/*******************************/
+
+.text-center{
+    text-align:center;
+}
+
+.font-1{
+    font-size: 20px;
+}
+
+.font-2{
+    font-size: 25px;
+}
+
+.font-3{
+    font-size: 20px;
+}
+
+.mt-1{
+    margin-top: 5px;
+}
+
+.mt-2{
+    margin-top: 10px;
+}
+
+.mt-3{
+    margin-top: 15px;
+}
+
+.mt-4{
+    margin-top: 20px;
+}
